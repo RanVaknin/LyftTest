@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap");
+
+    body {
+        margin: 0;
+        font-family: nunito;
+        text-align: center;
+        text-align: -webkit-center;
+
+    }
+    header{
+        padding-top: 100px;
+        padding-right: 300px;
+        padding-left: 300px;
+        padding-bottom: 100px;
+        background-color: #ff00bf;
+    }
+    main{
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    footer{
+        background: rgb(246, 240, 242);
+        margin: 0;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        
+    }
+    h6{
+        margin:5px;
+    }
+    #photoDiv {
+      width: 17rem;
+      height: 17rem;
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+
+    #profile_photo {
+      display: inline;
+      box-sizing: border-box;
+      margin: 0 auto;
+      height: 100%;
+      width: auto;
+    }
+
+    #intro{
+        width: 600px;
+        box-sizing: border-box;
+        font-weight: bold;
+
+    }
+    .api_details{
+        margin-top: 50px;
+        width: 700px;
+        text-align: left;
+        text-align: -webkit-left;
+        font-weight:lighter;
+    }
+    .api_details > div > p{
+        margin: 0;
+        padding: 0;
+    }
+    .code_snippet{
+        background-color: #ffe0f7;
+    }
+
+    body > main > div.api_details > div > div > pre{
+        margin: 0;
+        padding: 0;
+    }

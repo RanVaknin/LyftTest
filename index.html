@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lyft Test</title>
+    <link rel="stylesheet" href="./public/styles.css">
+  </head>
+  <body>
+    <header>
+        <h6>Ran Vaknin</h6>
+        <div id="photoDiv">
+            <img
+              id="profile_photo"
+              src="./public/stash.png"
+            />
+          </div>
+          <div class="greeting">
+            <h1>Hello Lyft Person!</h1>
+            <h2 style="margin-top:-20px;">I hope your day is going well :)</h2>
+          </div>
+    </header>
+    <main>
+        <div id="intro">
+            <p>This simple API was built for Lyft's apprenticeship entrance exam. You can use the API using the following steps:
+            </p>
+        </div>
+        <div class="api_details">
+            <div>
+                <h3>POST /test</h3>
+                <p>Request:</p>
+                <div class="code_snippet">
+                   <pre>
+                       <code>
+                        {
+                            "string_to_cut": "Hello Lyft From Ran Vaknin."
+                        }
+
+
+                        // Header:
+                        "Content-Type: application/json"
+                       </code>
+                   </pre>
+                </div>
+            </div>
+        </div>
+        <div class="api_details">
+            <div>
+                <p>Response:</p>
+                <div class="code_snippet">
+                   <pre>
+                       <code>
+                        {
+                            "return_string": "l fFmaVn."
+                        }
+                       </code>
+                   </pre>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>All rights reserved 2021</p>
+    </footer>
+  </body>
+</html>
