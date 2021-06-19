@@ -9,12 +9,14 @@ Return a JSON object with the key “return_string” and a string containing ev
 
 ## How to use:
 Send a POST request to /test with the following payload
+
 ```
+H- Content-type: "application/json"
+
 {
   "string_to_cut": "Hello Lyft From Ran Vaknin."
 }
     
-    H- Content-type: "application/json"
 ```
 
 And you should receive a response of the substring
