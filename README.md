@@ -26,5 +26,6 @@ And you should receive a response of the substring
 
 ```
 
-This little project was a lot of fun. I put extra time on the front end to mock a real API dock and added a little Lyft flair!
+This little project was a lot of fun. I put extra time on the front end to mock real API docs and added a little Lyft flair!
+
 ~Ran
