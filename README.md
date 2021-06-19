@@ -2,7 +2,28 @@
 
 ![image](https://user-images.githubusercontent.com/50976344/122619367-2959bd80-d045-11eb-83d0-3a0110c4cd67.png)
 
-## This Little project is for the Lyft apprenticeship entrance task.
-Follow the information on the project homepage to make a request and test my API.
+## What is this?
+This API' sole purpose is to take accept a POST request to the route “/test”, which accepts one argument “string_to_cut”
+Return a JSON object with the key “return_string” and a string containing every third letter from the original string.
 
-This was a fun day project to work on, I hope you enjoy!
+## How to use:
+Send a POST request to /test with the following payload
+```
+{
+  "string_to_cut": "Hello Lyft From Ran Vaknin."
+}
+    
+    H- Content-type: "application/json"
+```
+
+And you should receive a response of the substring
+
+```
+{
+  "return_string": "l fFmaVn."
+}
+
+```
+
+This little project was a lot of fun. I put extra time on the front end to mock a real API dock and added a little Lyft flair!
+~Ran
