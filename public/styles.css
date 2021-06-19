@@ -69,3 +69,80 @@
         margin: 0;
         padding: 0;
     }
+
+    .api_form{
+        font: 95% Arial, Helvetica, sans-serif;
+        max-width: 400px;
+        margin: 10px auto;
+        padding: 16px;
+        background: #F7F7F7;
+        margin-top: 100px;
+
+    }
+    .api_form h1{
+        background: #ffe0f7;
+        padding: 20px 0;
+        font-size: 140%;
+        font-weight: 300;
+        text-align: center;
+        margin: -16px -16px 16px -16px;
+    }
+    .api_form input[type="text"],
+    .api_form input[type="date"],
+    .api_form input[type="datetime"],
+    .api_form input[type="email"],
+    .api_form input[type="number"],
+    .api_form input[type="search"],
+    .api_form input[type="time"],
+    .api_form input[type="url"],
+    .api_form textarea,
+    .api_form select 
+    {
+        -webkit-transition: all 0.30s ease-in-out;
+        -moz-transition: all 0.30s ease-in-out;
+        -ms-transition: all 0.30s ease-in-out;
+        -o-transition: all 0.30s ease-in-out;
+        outline: none;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 4%;
+        border: 1px solid #ccc;
+        padding: 3%;
+        color: #555;
+        font: 95% Arial, Helvetica, sans-serif;
+    }
+    .api_form input[type="text"]:focus,
+    .api_form input[type="date"]:focus,
+    .api_form input[type="datetime"]:focus,
+    .api_form input[type="email"]:focus,
+    .api_form input[type="number"]:focus,
+    .api_form input[type="search"]:focus,
+    .api_form input[type="time"]:focus,
+    .api_form input[type="url"]:focus,
+    .api_form textarea:focus,
+    .api_form select:focus
+    {
+        box-shadow: 0 0 5px #ffe0f7;
+        padding: 3%;
+        border: 1px solid #ffe0f7;
+    }
+    
+    .api_form input[type="submit"],
+    .api_form input[type="button"]{
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+        padding: 3%;
+        background: #ffe0f7;
+        border-bottom: 2px solid #ffe0f7;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;	
+    }
+    .api_form input[type="submit"]:hover,
+    .api_form input[type="button"]:hover{
+        background: #e7cae0;
+    }

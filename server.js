@@ -1,23 +1,24 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+require('dotenv').config();
 app.use(express.json());
-// app.use(express.static('*'))
 
-app.use('/public', express.static(path.join(__dirname, 'public')))
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req,res) => {
     res.status(200).sendfile('./index.html');
 })
 
 app.post('/test', (req, res) =>{
+    console.log(req.body);
     res.json({
         return_string: everyThirdLetter(req.body.string_to_cut)
     });
 })
 
 function everyThirdLetter(inputStr){
-    if(inputStr.length < 3){
+    if(!inputStr || inputStr.length < 3){
         return '';
     }else {
         let answer = '';
@@ -28,7 +29,9 @@ function everyThirdLetter(inputStr){
     }
 }
 
-const PORT = 8080;
+
+
+const PORT = process.env.PORT;
 app.listen(PORT, () =>{
     console.log(`listening on port ${PORT}`)
 })

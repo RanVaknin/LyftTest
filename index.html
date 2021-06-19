@@ -57,9 +57,24 @@
                 </div>
             </div>
         </div>
+        <div class="api_details">
+            <div>
+                <div class="api_form" id="api_form" action="/test" method="POST">
+                    <h1>Try it</h1>
+                    <form>
+                    <input type="text" name="payload" placeholder="string_to_cut" class="payload_box"/>
+                    <input type="text" id="api_result" name="result" placeholder="result"/>
+
+                    <input type="submit" value="Send" />
+                    </form>
+                    </div>
+
+            </div>
+        </div>
     </main>
     <footer>
         <p>All rights reserved 2021</p>
     </footer>
+    <script src="/public/app.js"></script>
   </body>
 </html>
