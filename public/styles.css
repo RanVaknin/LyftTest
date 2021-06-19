@@ -146,3 +146,11 @@
     .api_form input[type="button"]:hover{
         background: #e7cae0;
     }
+
+    #api_result{
+        margin-top: 30px;
+    }
+    .pre_snippet{
+        white-space: pre-line;
+        margin-left: 25px !important;
+    }

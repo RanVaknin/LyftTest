@@ -29,15 +29,10 @@
                 <h3>POST /test</h3>
                 <p>Request:</p>
                 <div class="code_snippet">
-                   <pre>
-                       <code>
-                        {
-                            "string_to_cut": "Hello Lyft From Ran Vaknin."
+                   <pre class="pre_snippet"> 
+                       <code>{
+                            &nbsp;&nbsp;&nbsp;&nbsp;"string_to_cut": "Hello Lyft From Ran Vaknin."
                         }
-
-
-                        // Header:
-                        "Content-Type: application/json"
                        </code>
                    </pre>
                 </div>
@@ -47,10 +42,10 @@
             <div>
                 <p>Response:</p>
                 <div class="code_snippet">
-                   <pre>
+                   <pre class="pre_snippet">
                        <code>
                         {
-                            "return_string": "l fFmaVn."
+                            &nbsp;&nbsp;&nbsp;&nbsp;"return_string": "l fFmaVn."
                         }
                        </code>
                    </pre>
@@ -63,9 +58,9 @@
                     <h1>Try it</h1>
                     <form>
                     <input type="text" name="payload" placeholder="string_to_cut" class="payload_box"/>
-                    <input type="text" id="api_result" name="result" placeholder="result"/>
+                    <input type="submit" value="Submit" />
+                    <input type="text" id="api_result" name="result" placeholder="Result" disabled/>
 
-                    <input type="submit" value="Send" />
                     </form>
                     </div>
 
