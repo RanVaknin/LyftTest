@@ -1,4 +1,3 @@
-Website: http://lyfttest-env.eba-3xpcvy7g.us-east-1.elasticbeanstalk.com/
 # Lyft apprenticeship entrance task.
 
 ![image](https://user-images.githubusercontent.com/50976344/122619367-2959bd80-d045-11eb-83d0-3a0110c4cd67.png)
